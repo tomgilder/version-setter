@@ -1,0 +1,34 @@
+{
+    "manifestVersion": 1,
+    "id": "version-setter",
+    "name": "Version Setter",
+    "version": "1.0.0",
+    "publisher": "tomgilder",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Update the app version of iOS apps",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "ios-set-version"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "ios-set-version",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [ "ms.vss-distributed-task.tasks" ],
+            "properties": {
+                "name": "ios-set-version"
+            }
+        }
+    ]
+}
