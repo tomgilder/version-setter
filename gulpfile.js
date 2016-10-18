@@ -24,5 +24,5 @@ gulp.task('compile', function (done)
 
 gulp.task('copyFiles', function()
 {
-  return gulp.src('./src/**/*.{png,svg,sh,json}').pipe(gulp.dest('./_build'));
+  return gulp.src('./src/**/*.{png,svg,sh,json,md}').pipe(gulp.dest('./_build'));
 });
