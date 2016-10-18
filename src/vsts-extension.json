@@ -2,8 +2,9 @@
     "manifestVersion": 1,
     "id": "version-setter",
     "name": "Version Setter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "tomgilder",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
